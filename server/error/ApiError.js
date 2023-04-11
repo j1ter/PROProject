@@ -19,3 +19,5 @@ class ApiError {
 
     
 }
+
+module.exports = ApiError
