@@ -14,7 +14,7 @@ import {observer} from "mobx-react-lite"
 const NavBar = observer(()=> {
     const {user} = useContext(Context)
     return (
-        <Navbar style={{backgroundColor: 'green'}}>
+        <Navbar style={{backgroundColor: '#27AE60'}}>
         <Container>
           <NavLink style={{color:'white'}} to={SHOP_ROUTE}>Clean Choice</NavLink>
           {user.isAuth ?

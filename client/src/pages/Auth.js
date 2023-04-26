@@ -15,7 +15,7 @@ const Auth = () => {
         className="d-flex justify-content-center align-items-center"
         style={{height: window.innerHeight - 54}}
         >
-            <Card style={{width: 600}} className="p-5">
+            <Card style={{width: 450}} className="p-5 shadow">
                 <h2 className="m-auto">{isLogin ? 'Авторизация' : "Регистрация"}</h2>
             <Form className="d-flex flex-column">
                 <Form.Control
@@ -46,6 +46,12 @@ const Auth = () => {
                 </Row>
             </Form>
 
+            </Card>
+            <Card className="ml-3 p-5 shadow" style={{backgroundColor: '#27AE60', height:338, width: 300}}>
+                <Card.Title className="text-white text-center mt-5">Clean Choice</Card.Title>
+                <Card.Text className="text-white text-center mt-3">
+                    Мы поддерживаем эко-сознательное потребление и заботимся о чистоте окружающей среды.
+                </Card.Text>
             </Card>
             
           
