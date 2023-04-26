@@ -4,11 +4,17 @@ export default class ProductStore {
     constructor() {
         this._types = [
             {id: 3, name: 'косметика и гигиена'},
-            {id: 4, name: 'Для дома'}
+            {id: 4, name: 'Для дома'},
+            {id: 5, name: 'Для дома'},
+            {id: 6, name: 'Для дома'},
+            {id: 7, name: 'Для дома'},
         ]
         this._brands = [
             {id: 2, name: 'Seventh Generation'},
-            {id: 7, name: 'Method'}
+            {id: 7, name: 'Method'},
+            {id: 8, name: 'Method'},
+            {id: 9, name: 'Method'},
+           
         ]
         this._products = [
             {id: 2, name: 'Peppermint Fluoride-Free Toothpaste', price: 10, rating: 5, img: 'f70eb146-c249-4198-aa9b-31b55eec07d7.jpg'},
@@ -17,6 +23,8 @@ export default class ProductStore {
             {id: 5, name: ' Method All-Purpose Cleaner', price: 12, rating: 5, img: 'd15c34d7-0f3c-4abb-9d33-9b323208c575.jpg'},
             {id: 6, name: 'Method Dish Soap', price: 15, rating: 5, img: 'a4dd558f-3971-489c-a61c-6db43e49dff0.jpg'}
         ]
+        this._selectedType = {}
+        this._selectedBrand = {}
         makeAutoObservable(this)
     }
 
@@ -29,6 +37,12 @@ export default class ProductStore {
     setProducts(products) {
         this._products = products
     }
+    setSelectedType(type) {
+        this._selectedType = type
+    }
+    setSelectedBrand(brand) {
+        this._selectedBrand = brand
+    }
 
     get types() {
         return this._types
@@ -39,5 +53,11 @@ export default class ProductStore {
     }
     get products() {
         return this._products
+    }
+    get selectedType() {
+        return this._selectedType
+    }
+    get selectedBrand() {
+        return this._selectedBrand
     }
 }
