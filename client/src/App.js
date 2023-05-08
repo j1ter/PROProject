@@ -1,15 +1,15 @@
-import { BrowserRouter } from "react-router-dom";
-import AppRouter from "./components/AppRouter";
-import NavBar from "./components/NavBar";
 
+import './App.css';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <BrowserRouter>
-    <NavBar />
-
-     <AppRouter /> 
-    </BrowserRouter>
+    <>
+    <Layout>
+    <h1>Eco market App</h1>
+    </Layout>
+     
+    </>
   );
 }
 

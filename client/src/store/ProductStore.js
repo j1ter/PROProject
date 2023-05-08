@@ -5,15 +5,12 @@ export default class ProductStore {
         this._types = [
             {id: 3, name: 'косметика и гигиена'},
             {id: 4, name: 'Для дома'},
-            {id: 5, name: 'Для дома'},
-            {id: 6, name: 'Для дома'},
-            {id: 7, name: 'Для дома'},
+            
         ]
         this._brands = [
             {id: 2, name: 'Seventh Generation'},
             {id: 7, name: 'Method'},
-            {id: 8, name: 'Method'},
-            {id: 9, name: 'Method'},
+           
            
         ]
         this._products = [
