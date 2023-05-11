@@ -6,6 +6,7 @@ import Recycling from './pages/Recycling';
 import Policy from './pages/Policy';
 import Pagenotfound from './pages/Pagenotfound';
 import ProductPage from './pages/ProductPage';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path='/news' element={<News />} />
       <Route path='/recycling' element={<Recycling />} />
       <Route path='/policy' element={<Policy />} />
+      <Route path='/contact' element={<Contact />} />
       <Route path='*' element={<Pagenotfound />} />
     </Routes>
      
