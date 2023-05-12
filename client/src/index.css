@@ -88,3 +88,15 @@
   padding: 10px;
   margin-top: 10px;
 }
+
+/*========================================
+=====contact us==========================*/
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
