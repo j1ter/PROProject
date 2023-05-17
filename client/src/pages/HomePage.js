@@ -1,16 +1,12 @@
-import React from 'react';
-import Layout from '../components/Layout/Layout';
-import {useAuth} from '../context/auth';
-
+import React from "react";
+import Layout from "../components/Layout/Layout";
 
 const HomePage = () => {
-  const [auth, setAuth] = useAuth();
   return (
-    <Layout title={'Clean Choice'}>
-        <h1>Home Page</h1>
-        <pre>{JSON.stringify(auth, null, 4)}</pre>
+    <Layout title={"Clean Choice"}>
+      <h1>Home Page</h1>
     </Layout>
-  )
-}
+  );
+};
 
 export default HomePage;
