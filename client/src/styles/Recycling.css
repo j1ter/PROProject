@@ -1,0 +1,47 @@
+.banner_part {
+    position: relative;
+    height: 782px;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner_part .banner_text h1 span {
+    color: #B08EAD;
+  }
+  
+  /* line 74, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
+  .banner_part .banner_text p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  /* line 79, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
+  .banner_part .banner_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 55%;
+  }
+  .single_product_list {
+    padding: 200px 0 100px;
+  }
+  .single_product_list .single_product_iner {
+    margin-bottom: 100px;
+  }
+  .single_product_list .single_product_img {
+    position: relative;
+    margin: 35px 0 0 35px;
+  }
+
+  .single_product_list .single_product_content h5 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #B08EAD;
+  }
+
+  .single_product_list .single_product_img .product_overlay {
+    position: absolute;
+    left: -35px;
+    top: -35px;
+    z-index: -1;
+  }

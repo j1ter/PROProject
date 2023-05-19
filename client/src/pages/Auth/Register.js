@@ -23,8 +23,7 @@ const Register = () => {
         password,
         phone,
         address,
-        answer
-        
+        answer,
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
@@ -110,7 +109,7 @@ const Register = () => {
               required
             />
           </div>
-        
+
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>

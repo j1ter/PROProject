@@ -1,26 +1,58 @@
-import React from 'react'
-import Layout from '../components/Layout/Layout'
+import React from "react";
+import Layout from "../components/Layout/Layout";
 
 const About = () => {
   return (
     <Layout title={"About us - Clean Choice"}>
-        <div className='row contactus'>
-          <div className='col-md-6'>
-            <img src='/images/about.png' alt='contactus' style={{width: '100%'}} />
-          </div>
-          <div className='col-md-4'>
-            <p className='text-justify mt-2'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            officiis obcaecati esse tempore unde ratione, eveniet mollitia,
-            perferendis eius temporibus dicta blanditiis doloremque explicabo
-            quasi sunt vero optio cum aperiam vel consectetur! Laborum enim
-            accusantium atque, excepturi sapiente amet! Tenetur ducimus aut
-            commodi illum quidem neque tempora nam.
+      <div className="row contactus">
+        <div className="col-md-6">
+          <img
+            src="/images/about.png"
+            alt="contactus"
+            style={{ width: "100%" }}
+          />
+        </div>
+        <div className="col-md-6">
+          <div className="about_text">
+            <h2>
+              Добро пожаловать в наш проект эко-сознательного потребления!
+            </h2>
+            <p>
+              Мы стремимся создать сообщество, в котором каждый может внести
+              свой вклад в сохранение окружающей среды и создание устойчивого
+              будущего. Наш проект направлен на осознанное потребление и
+              переработку продуктов, чтобы уменьшить негативное воздействие
+              нашей деятельности на природу.
+            </p>
+            <p>
+              Мы предлагаем широкий выбор продуктов, которые производятся с
+              учетом принципов экологической устойчивости. Все наши продукты
+              отобраны с особым вниманием к их экологическим характеристикам,
+              качеству и этическому происхождению. Мы поддерживаем и поощряем
+              использование экологически чистых и перерабатываемых материалов, а
+              также продукты, созданные с использованием возобновляемых
+              источников энергии.
+            </p>
+            <p>
+              Кроме того, у нас есть вкладка по переработке, где вы можете
+              узнать больше о процессе переработки различных материалов. Мы
+              предоставляем информацию о том, как правильно сортировать и
+              перерабатывать продукты, чтобы максимально сократить отходы и
+              повторно использовать материалы. Мы также предлагаем список
+              адресов и организаций, где вы можете сдать продукты на переработку
+              в вашем регионе.
+            </p>
+            <p>
+              Присоединяйтесь к нам в нашем усилии по сохранению планеты и
+              созданию устойчивого будущего. Вместе мы можем сделать
+              значительный вклад в борьбу с изменением климата и защиту
+              окружающей среды для будущих поколений.
             </p>
           </div>
         </div>
+      </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default About
+export default About;
